@@ -3,10 +3,10 @@ import "../styles/App.css";
 
 class App extends Component {
   render() {
-    relatives = ["Amit", "Alok", "Gaurav", "Ankit"];
+    const relatives = ["Amit", "Alok", "Gaurav", "Ankit"];
     return (
       <ol key="relativeList">
-        {this.relatives.map((relative, index) => (
+        {relatives.map((relative, index) => (
           <li key={`relativeListItem${index + 1}`}>{relative}</li>
         ))}
       </ol>
