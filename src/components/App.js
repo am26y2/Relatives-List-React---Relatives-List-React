@@ -2,8 +2,8 @@ import React, { Component, useState } from "react";
 import "../styles/App.css";
 
 class App extends Component {
-  relatives = ["Amit", "Alok", "Gaurav", "Ankit"];
   render() {
+    relatives = ["Amit", "Alok", "Gaurav", "Ankit"];
     return (
       <ol key="relativeList">
         {relatives.map((relative, index) => (
